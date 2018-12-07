@@ -20,7 +20,7 @@ const router = new Router({
           component: () => import('views/upload.vue'),
           meta: {
             title: '上传组件',
-          }
+          },
         },
         {
           path: '/table',
@@ -28,7 +28,7 @@ const router = new Router({
           component: () => import('views/table.vue'),
           meta: {
             title: '表格组件',
-          }
+          },
         },
       ],
     },

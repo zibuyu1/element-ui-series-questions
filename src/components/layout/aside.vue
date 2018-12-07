@@ -12,7 +12,7 @@
       </el-menu-item>
       <el-menu-item index="/table">
         <i class="el-icon-menu"></i>
-        <span slot="title">表格组件</span>
+        <span slot="title">表格合并</span>
       </el-menu-item>
     </el-menu>
   </div>

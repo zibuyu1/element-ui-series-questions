@@ -44,7 +44,7 @@ export default class UploadList extends Vue {
       this.downloadFileFun(item.url);
     }
   }
-  /** 
+  /**
    * 下载封装
    */
   private downloadFileFun(url: any) {

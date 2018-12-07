@@ -28,7 +28,7 @@ export default class UploadBtns extends Vue {
   }; // 上传时附带的额外参数
   private showFileList: boolean = false; // 是否显示文件上传列表
   private withcredentials: boolean = true; // 支持发送 cookie 凭证信息
-  private accept: string = '.jpg, .png, .txt'; // 接受上传的文件类型
+  private accept: string = '.jpg, .png, .txt, .zip, .rar'; // 接受上传的文件类型
   private tempArr: any[] = [];
   @Prop() private uploadFileList!: any[];
   /**
@@ -46,9 +46,9 @@ export default class UploadBtns extends Vue {
    */
   private handleBeforeUpload(file: any) {
     // 文件大小限制
-    const isLt5M = file.size / 1024 / 1024 < 5;
+    const isLt5M = file.size / 1024 / 1024 < 200;
     if (!isLt5M) {
-      this.$message.error('不得超过5M');
+      this.$message.error('不得超过200');
       return isLt5M;
     }
     // 文件类型限制
