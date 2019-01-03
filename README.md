@@ -1,5 +1,12 @@
 # vuecli3
 
+## 此项目需要先安装cli-3.0
+```
+npm install -g @vue/cli
+或者
+yarn add global @vue/cli
+```
+
 ## Project setup
 ```
 npm install
