@@ -1,85 +1,163 @@
-$color1:#066eb7;
-$color2:#0560a1;
-$color3:#f08229;
-$color4:#de7622;
-$color5:#ecf3fb;
-$color6:#d7e7f1;
+html,
+body,
+div,
+span,
+object,
+li,
+ul,
+img iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+em,
+img,
+strong,
+sub,
+sup,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input,
+textarea,
+select,
+button,
+meter,
+progress {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, "Microsoft Yahei", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
 
-// 按钮
-.el-button--primary{
-  background-color: $color1 !important;
-  border-color: $color1 !important;
-  border-radius: 4px !important;
+li {
+  list-style: none;
 }
-.el-button--primary:hover{
-  background-color: $color2 !important;
-  border-color: $color2 !important;
-  border-radius: 4px !important;
-}
-.el-button--warning{
-  background-color: $color3 !important;
-  border-color: $color3 !important;
-  border-radius: 4px !important;
-}
-.el-button--warning:hover{
-  background-color: $color4 !important;
-  border-color: $color4 !important;
-  border-radius: 4px !important;
-}
-.el-button--default{
-  background-color: $color5 !important;
-  border-color: $color1 !important;
-  border-radius: 4px !important;
-  color: $color1 !important;
-}
-.el-button--default:hover{
-  background-color: $color6 !important;
-  border-color: $color1 !important;
-  border-radius: 4px !important;
-  color: $color1 !important;
-}
-// 按钮
 
-// 输入框，select选择框
-.el-input__inner:hover {
-  border-color: $color1 !important;
+.fl {
+  float: left;
 }
-.el-input__inner:focus {
-  border-color: $color2 !important;
-}
-// 输入框，select选择框
 
-// 单选框
-.el-radio__inner:hover {
-  border-color: $color1 !important;
+.fr {
+  float: right;
 }
-.el-radio__label:hover{
-  color: $color1 !important;
+
+i {
+  font-style: normal;
 }
-.el-radio__input.is-disabled .el-radio__inner:hover{
-  border-color: #dcdfe6 !important;
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  ;
 }
-.el-radio.is-disabled .el-radio__label:hover{
-  color: #c0c4cc !important;
+
+a {
+  outline: none;
 }
-.el-radio__input.is-checked .el-radio__inner{
-  background-color: $color2 !important;
-  border-color: $color2 !important;
+
+a:link {
+  text-decoration: none;
 }
-.el-radio__input.is-checked+.el-radio__label{
-  color: $color2 !important;
+
+a:visited {
+  text-decoration: none;
 }
-.el-radio.is-bordered.is-checked{
-  border-color: $color2 !important;
+
+a {
+  color: black;
 }
-.el-radio:hover{
-  border-color: $color1 !important;
+
+input，textarea {
+  outline: none;
+  -webkit-appearance: none;
 }
-.el-radio.is-bordered.is-disabled:hover{
-  border-color: #ebeef5 !important;
+
+/** 重置列表元素 **/
+
+ul,
+ol {
+  list-style: none;
 }
-.el-radio.is-bordered.is-checked{
-  border-width: 2px;
+
+fieldset,
+img {
+  border: 0;
 }
-// 单选框
+
+/* img 搭车：让链接里的 img 无边框 */
+
+/* 重置 HTML5 元素 */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.single-tooltip{
+  width: 500px !important;
+}
 

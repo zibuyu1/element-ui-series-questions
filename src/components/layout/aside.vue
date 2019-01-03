@@ -14,6 +14,10 @@
         <i class="el-icon-menu"></i>
         <span slot="title">表格合并</span>
       </el-menu-item>
+      <el-menu-item index="/ellipsis">
+        <i class="el-icon-more"></i>
+        <span slot="title">文本溢出</span>
+      </el-menu-item>
     </el-menu>
   </div>
 </template>

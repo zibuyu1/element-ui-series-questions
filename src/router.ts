@@ -30,6 +30,14 @@ const router = new Router({
             title: '表格组件',
           },
         },
+        {
+          path: '/ellipsis',
+          name: 'ellipsis',
+          component: () => import('views/ellipsis.vue'),
+          meta: {
+            title: '多行文本溢出省略',
+          },
+        },
       ],
     },
   ],
